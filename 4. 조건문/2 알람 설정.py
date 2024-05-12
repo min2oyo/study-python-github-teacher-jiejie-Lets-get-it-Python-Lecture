@@ -8,4 +8,4 @@ if day == 0:
     time = 7
 else:
     time = 10
-print("아침 10시입니다! 주인님 일어나세요!")
+print("아침", time, "시입니다! 주인님 일어나세요!")
