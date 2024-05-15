@@ -2,7 +2,7 @@ startNum = 1
 lastNum = 50
 
 """
-합
+for - 합
 """
 totalNumber = 0
 
@@ -13,11 +13,13 @@ print(totalNumber)
 
 
 """
-곱
+while - 곱
 """
+i = startNum
 totalNumber = 1
 
-for i in range(startNum, lastNum + 1):
+while i < lastNum + 1:
     totalNumber *= i
+    i += 1
 
 print(totalNumber)
